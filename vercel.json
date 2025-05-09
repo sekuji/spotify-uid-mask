@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/spotify",
+      "destination": "/api/spotify.js"
+    }
+  ]
+}
