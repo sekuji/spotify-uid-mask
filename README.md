@@ -51,13 +51,11 @@ git push -u origin main
 ### 4. Deploy on Vercel
 
 - Log into [Vercel](https://vercel.com) and import your GitHub repo.
-- After deploying, go to **Settings > Environment Variables**.
-- Add:
-
+- In the Environment Variables section (before clicking Deploy), add:
   - Name: `SPOTIFY_UID`
   - Value: Your Spotify UID
 
-- Save and redeploy the project.
+- Leave everything else as-is and click Deploy.
 
 ---
 
